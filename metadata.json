@@ -1,0 +1,6 @@
+{
+  "name": "بستان الصلاة - كرتون تعليم الصلاة للأطفال",
+  "description": "فيديو كرتوني أنيميشن تفاعلي لتعليم الأطفال من سن 5 سنوات خطوات الصلاة ببساطة باللهجة العامية المصرية مع موسيقى هادئة ومحادثة صوتية مباشرة وبحث جوجل.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

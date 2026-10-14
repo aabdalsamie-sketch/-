@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@keyframes subtle-bob {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Print styles for Prayer Certificate */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-certificate, #printable-certificate * {
+    visibility: visible;
+  }
+  #printable-certificate {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 24px;
+    border-width: 6px;
+    box-shadow: none;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
